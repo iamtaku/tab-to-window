@@ -1,7 +1,7 @@
 {
   "name": "Tab to Window",
   "description": "Plugin to Move the current tab in a new window",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/commands",
+  "homepage_url": "https://github.com/iamtaku/tab-to-window",
   "manifest_version": 2,
   "version": "1.0",
   "background": {
