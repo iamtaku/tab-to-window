@@ -1,0 +1,22 @@
+{
+  "name": "Tab to Window",
+  "description": "Plugin to Move the current tab in a new window",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/commands",
+  "manifest_version": 2,
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "moveActiveTabToNewWindow": {
+      "suggested_key": {
+        "default": "Alt+X"
+      },
+      "description": "Move the current active into a new window"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  }
+}
